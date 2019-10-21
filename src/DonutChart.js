@@ -1,4 +1,5 @@
 import Chart from 'chart.js';
+import React from 'react';
 
 export default class DonutChart extends React.Component {
   constructor(props) {
@@ -11,11 +12,24 @@ export default class DonutChart extends React.Component {
     this.myChart = new Chart(this.chartRef.current, {
       type: 'doughnut',
       data: {
-        labels: ,
+        labels: this.props.info.map(flavor => flavor.name),
         datasets: [{
-          data: ,
-          backgroundColor: this.props.colors
+          data: this.props.info.map(flavor => flavor.percentage),
+          backgroundColor: this.props.info.map(flavor => flavor.color)
         }]
+      },
+      options: {
+        title: {
+            display: true,
+            text: this.props.title,
+            fontSize: 20,
+            fontColor: '#FFFFFF'
+        },
+        maintainAspectRatio: false,
+        legend: {
+            display: true,
+            position: 'bottom'
+        }
       }
     })
   }

@@ -1,0 +1,131 @@
+[
+  {
+    "id": 1,
+    "title": "Optimal Neopolitan Mix",
+    "flavor": [
+      {
+        "name": "Strawberry",
+        "percentage": "40",
+        "color": "#F498B8"
+      },
+      {
+        "name": "Vanilla",
+        "percentage": "50",
+        "color": "#F5F3FB"
+      },
+      {
+        "name": "Chocolate",
+        "percentage": "10",
+        "color": "#8F461A"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Summer Flavor Popularity",
+    "flavor": [
+      {
+        "name": "Watermelon",
+        "percentage": "40",
+        "color": "#008375"
+      },
+      {
+        "name": "Blueberry",
+        "percentage": "35",
+        "color": "#B0DFE0"
+      },
+      {
+        "name": "Pomegranate",
+        "percentage": "25",
+        "color": "#8E1537"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Most Popular Toppings",
+    "flavor": [
+      {
+        "name": "Cherry",
+        "percentage": "35",
+        "color": "#EA0029"
+      },
+      {
+        "name": "Choc Sprinkles",
+        "percentage": "25",
+        "color": "#8F461A"
+      },
+      {
+        "name": "Fudge",
+        "percentage": "20",
+        "color": "#371C1F"
+      },
+      {
+        "name": "Banana",
+        "percentage": "15",
+        "color": "#FCD964"
+      },
+      {
+        "name": "Other",
+        "percentage": "5",
+        "color": "#F5D9DF"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Revenue (Monthly)",
+    "location": [
+      {
+        "city": "NYC",
+        "data": [
+          {
+            "time": "12-14-2019",
+            "revenue": "0"
+          },
+          {
+            "time": "1-14-2020",
+            "revenue": "400000"
+          },
+          {
+            "time": "2-14-2020",
+            "revenue": "800000"
+          },
+          {
+            "time": "3-14-2020",
+            "revenue": "1400000"
+          },
+          {
+            "time": "4-14-2020",
+            "revenue": "2800000"
+          }
+        ]
+      },
+      {
+        "city": "San Francisco",
+        "data": [
+          {
+            "time": "12-14-2019",
+            "revenue": "400000"
+          },
+          {
+            "time": "1-14-2020",
+            "revenue": "700000"
+          },
+          {
+            "time": "2-14-2020",
+            "revenue": "1000000"
+          },
+          {
+            "time": "3-14-2020",
+            "revenue": "1500000"
+          },
+          {
+            "time": "4-14-2020",
+            "revenue": "2200000"
+          }
+        ]
+      }
+    ]
+  }
+]
